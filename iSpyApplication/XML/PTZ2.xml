@@ -4387,4 +4387,55 @@
       <Command Name="iris small">opType=set&amp;cmd=ptz&amp;ptz_cmd=7&amp;protocol=1&amp;band=2400&amp;speed=60&amp;addr=1</Command>
     </ExtendedCommands>
   </Camera>
+  <Camera id="178" AppendAuth="usr=[USERNAME]&amp;pwd=[PASSWORD]">
+    <Makes>
+      <Make Name="7Links" Model="IPC-260HD" />
+      <Make Name="7Links" Model="PX-3760-675" />
+    </Makes>
+    <CommandURL>/cgi-bin/CGIProxy.fcgi</CommandURL>
+    <Commands>
+      <Center>&amp;cmd=ptzGotoPresetPoint&amp;name=Home</Center>
+      <Left>&amp;cmd=ptzMoveLeft</Left>
+      <LeftUp></LeftUp>
+      <Right>&amp;cmd=ptzMoveRight</Right>
+      <RightUp></RightUp>
+      <Up>&amp;cmd=ptzMoveUp</Up>
+      <Down>&amp;cmd=ptzMoveDown</Down>
+      <LeftDown></LeftDown>
+      <RightDown></RightDown>
+      <Stop>&amp;cmd=ptzStopRun</Stop>
+      <ZoomIn>&amp;cmd=ptzReset</ZoomIn>
+      <ZoomOut></ZoomOut>
+    </Commands>
+    <ExtendedCommands>
+      <Command Name="Stop">&amp;cmd=ptzStopRun</Command>
+      <Command Name="Snapshot">&amp;cmd=snapPictur</Command>
+      <Command Name="IR Mode Active">&amp;cmd=setInfraLedConfig&amp;mode=1</Command>
+      <Command Name="IR on">&amp;cmd=openInfraLed</Command>
+      <Command Name="IR off">&amp;cmd=closeInfraLed</Command>
+      <Command Name="IR Mode Deactivate">&amp;cmd=setInfraLedConfig&amp;mode=0</Command>
+      <Command Name="H Patrol">&amp;cmd=ptzStartCruise&amp;mapName=Horizontal</Command>
+      <Command Name="V Patrol">&amp;cmd=ptzStartCruise&amp;mapName=Vertical</Command>
+      <Command Name="Patrol Stop">&amp;cmd=ptzStopCruise</Command>
+      <Command Name="MainStream 0">&amp;cmd=setMainVideoStreamType&amp;streamType=0</Command>
+      <Command Name="MainStream 3">&amp;cmd=setMainVideoStreamType&amp;streamType=3</Command>
+      <Command Name="Mirror Output">&amp;cmd=mirrorVideo&amp;isMirror=1</Command>
+      <Command Name="Mirror Output normal">&amp;cmd=mirrorVideo&amp;isMirror=0</Command>
+      <Command Name="Flip Output">&amp;cmd=flipVideo&amp;isFlip=1</Command>
+      <Command Name="Flip Output normal">&amp;cmd=flipVideo&amp;isFlip=0</Command>
+      <Command Name="Go Home Position">&amp;cmd=ptzGotoPresetPoint&amp;name=Home</Command>
+      <Command Name="Go Preset1">&amp;cmd=ptzGotoPresetPoint&amp;name=Preset1</Command>
+      <Command Name="Go Preset2">&amp;cmd=ptzGotoPresetPoint&amp;name=Preset2</Command>
+      <Command Name="Go Preset3">&amp;cmd=ptzGotoPresetPoint&amp;name=Preset3</Command>
+      <Command Name="Go Preset4">&amp;cmd=ptzGotoPresetPoint&amp;name=Preset4</Command>
+     <Command Name="Go Preset5">&amp;cmd=ptzGotoPresetPoint&amp;name=Preset5</Command>
+     <Command Name="Set Home">&amp;cmd=ptzAddPresetPoint&amp;name=Home</Command>
+     <Command Name="Set Preset1">&amp;cmd=ptzAddPresetPoint&amp;name=Preset1</Command>
+     <Command Name="Set Preset2">&amp;cmd=ptzAddPresetPoint&amp;name=Preset2</Command>
+     <Command Name="Set Preset3">&amp;cmd=ptzAddPresetPoint&amp;name=Preset3</Command>
+     <Command Name="Set Preset4">&amp;cmd=ptzAddPresetPoint&amp;name=Preset4</Command>
+     <Command Name="Set Preset5">&amp;cmd=ptzAddPresetPoint&amp;name=Preset5</Command>
+     <Command Name="Reboot">&amp;cmd=rebootSystem</Command>
+    </ExtendedCommands>
+  </Camera>
 </PTZSettings2>
