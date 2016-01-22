@@ -143,6 +143,7 @@
     <url version="px-3688-675" confirmed="false" prefix="http://" Source="MJPEG" url="video.cgi?resolution=VGA" AudioModel="" port="" flags="" cookies="" />
     <url version="px-3688-675" confirmed="false" prefix="http://" Source="MJPEG" url="?action=stream" AudioModel="" port="" flags="" cookies="" />
     <url version="IP-WI-FI" confirmed="false" prefix="http://" Source="MJPEG" url="cgi/mjpg/mjpeg.cgi" AudioModel="" port="" flags="" cookies="" />
+    <url version="IPC-260 HD PX-3760-675" confirmed="false" prefix="http://" Source="JPEG" url="/cgi-bin/CGIProxy.fcgi?cmd=snapPicture" AudioModel="" port="88" flags="" cookies="" />
   </Manufacturer>
   <Manufacturer name="Abelcam">
     <url version="WebCam Server" confirmed="false" prefix="http://" Source="JPEG" url="screen.jpg" AudioModel="" port="" flags="" cookies="" />
